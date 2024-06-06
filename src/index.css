@@ -1,0 +1,202 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+/* @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
+body{
+
+  color: black;
+  font-family: 'Playpen Sans', cursive;
+} */
+/* You can add global styles to this file, and also import other style files */
+/* @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+:root {
+    --main-color:rgb(0, 66, 66);
+    --light-color: #f0f3f2;
+    --shadow: rgba(145, 158, 171, .2) 0px 2px 4px -1px, rgba(145, 158, 171, .14) 0px 4px 5px 0px, rgba(145, 158, 171, .12) 0px 1px 10px 0px;
+    --font-family: 'Encode Sans Expanded', sans-serif;
+    --rating-color: #ffc908;
+    --fav-color: #ff0808;
+    
+}
+
+body {
+    font-family: var(--font-family) !important;
+}
+
+.rating-color {
+    color: var(--rating-color);
+    
+}
+.fav-color {
+  color: var(--fav-color);
+  margin-left: 5px;
+ 
+  
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+a,
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.product:hover {
+    box-shadow: var(--shadow);
+    border: solid 1px var(--main-color);
+}
+
+.product .btn {
+    transition: transform 1s, opacity 1s;
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.product:hover .btn {
+    opacity: 1;
+    transform: translateY(0%);
+
+}
+
+.books:hover {
+  box-shadow: var(--shadow);
+  border: solid 1px var(--main-color);
+}
+
+.books .btn {
+  transition: transform 1s, opacity 1s;
+  transform: translateY(100%);
+  opacity: 0;
+}
+.btn-fav{
+  padding: 0;
+border: none;
+background: none;
+}
+
+.books:hover .btn {
+  opacity: 1;
+  transform: translateY(0%);
+
+}
+
+
+.font-sm {
+    font-size: 14px;
+}
+
+
+
+
+.text-main {
+    color: var(--main-color);
+}
+
+.bg-main {
+    background-color: var(--main-color) !important;
+}
+
+.bg-main-light {
+    background-color: var(--light-color) !important;
+}
+
+.navbar .container-fluid{
+
+  padding: 10px;
+}
+
+
+
+.blueNavbar {
+  background: rgb(3,0,51);
+  background: linear-gradient(90deg, rgba(3,0,51,1) 0%, rgba(9,116,115,1) 51%, rgba(0,212,255,1) 91%);
+}
+/* .scolor {
+  background-color: #030033;
+} */
+
+.original-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: #030033;
+  font-size: 16px;
+  border-radius: 7px;
+  width: 70px;
+  height: 35px;
+  font-weight: bold;
+  border: 1px solid #ffffff;
+  transition: 0.3s;
+  box-shadow: 0px 4px 10px -2px rgba(0, 0, 0, 0.3);
+ 
+}
+
+.original-button:hover {
+  box-shadow: 0 0 rgba(0, 0, 0, .3);
+}
+
+
+.whiteText {
+  color: white !important;
+}
+
+h3,.h3{
+
+    font-size: 24px;
+}
+.small-button {
+  padding: 5px 10px;
+  font-size: 10px;
+  background-color: #36a8f4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+
+/* lltgropaa */
+
+ /* .block-content ul li, .block-discover-block .block-content ul li {
+  width: 200px;
+}
+.block-content ul li, .block-discover-block .block-content ul li {
+  line-height: 1.7;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.block-content ul, .block-discover-block .block-content ul {
+  list-style: none;
+  padding: 0;
+} */
+/* .grayHeader {
+    color: gray !important;
+  }
+  
+  .blackText {
+    color: black !important;
+  } */
+  /* .grayBackground {
+    background-color: gray !important;
+  } */
+  
